@@ -1,121 +1,17 @@
+<!-- FORK STATUS -->
+> [!IMPORTANT]
+> This is an actively maintained fork of gardenGnostic's LegacyLauncher.
+>
+> With the original repository seemingly abandoned, I have taken over development to continue where the original creator left off.
+>
+> Huge thanks to gardenGnostic for the original codebase.
+
+<!-- HEADER -->
 # LegacyLauncher
 
-A custom launcher for Minecraft Legacy Console Edition.
+[![GitHub Repo stars](https://img.shields.io/github/stars/CommitMastery/LegacyLauncher?style=for-the-badge&color=yellow)](https://github.com/CommitMastery/LegacyLauncher/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/CommitMastery/LegacyLauncher?style=for-the-badge&color=blue)](https://github.com/CommitMastery/LegacyLauncher/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/CommitMastery/LegacyLauncher?style=for-the-badge&color=red)](https://github.com/CommitMastery/LegacyLauncher/issues)
+[![GitHub license](https://img.shields.io/github/license/CommitMastery/LegacyLauncher?style=for-the-badge&color=green)](https://github.com/CommitMastery/LegacyLauncher/blob/main/LICENSE)
 
-<img width="1277" height="717" alt="image" src="https://github.com/user-attachments/assets/eaa9bae6-3b3b-4e39-a3c1-156e34abf3cc" />
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/gradengnostic)
-
-
-## Features
-
-- **Minecraft-style GUI**: Authentic pixelated interface with Minecraft font and styling
-- **Automatic Updates**: Fetches latest releases from GitHub repositories
-- **Cross-platform Support**: Works on Windows and Linux
-- **Profiles**: Save your username and track playtime
-- **Custom Launch Options**: Configure IP, port, and server mode
-
-## Installation
-
-### From Source
-1. Clone or download this repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the launcher:
-   ```bash
-   npm start
-   ```
-
-
-## Building
-
-### Linux AppImage
-```bash
-npm run dist
-```
-
-### Windows Installer
-```bash
-npm run dist:win
-```
-
-## Configuration
-
-### Repository Source
-By default, the launcher fetches releases from `smartcmd/MinecraftConsoles`. You can change this in the Options menu.
-
-### Launch Options
-- **GitHub Repository**: Source repository for game releases
-- **Client Executable**: Name of the executable file (default: `Minecraft.Client.exe`)
-- **Compatibility Layer**: For Linux users - choose between direct execution, Wine, or Proton
-- **Connect/Bind IP**: Optional IP address for multiplayer
-- **Port**: Optional port number
-- **Server Mode**: Launch as headless server
-
-### Profile Settings
-- **Username**: Your in-game player name
-- **Playtime Tracking**: Automatically tracks total playtime
-
-## System Requirements
-
-- **Windows**: Direct execution of Windows executables
-- **Linux**: Wine or Proton for running Windows executables
-- **Internet**: Required for downloading game updates
-
-## Compatibility Layers (Linux)
-
-The launcher supports several compatibility options for Linux:
-
-- **Direct**: Run native Linux executables (if available)
-- **Wine**: Wine compatibility layer
-- **Proton**: Steam's Proton compatibility layer
-
-## Dependencies
-
-- **Electron**: Cross-platform desktop app framework
-- **discord-rpc**: Discord Rich Presence integration
-- **extract-zip**: ZIP archive extraction
-- **Tailwind CSS**: UI styling (via CDN)
-
-## Assets
-
-- Controller button sprites: [greatdocbrown](https://greatdocbrown.itch.io/gamepad-ui)
-- UI Sounds: Using the free version of [JDSherbert's Ultimate UI SFX Pack on itch.io](https://jdsherbert.itch.io/ultimate-ui-sfx-pack)
-
-## Development
-
-The launcher is built with:
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Electron with Node.js
-- **Styling**: Custom CSS with Minecraft theme + Tailwind CSS
-- **Build**: Electron Builder
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Repository not found**: Check the repository name in Options
-2. **Executable not found**: Verify the executable name matches the downloaded file
-3. **Launch failures**: Try different compatibility layers on Linux
-4. **Discord RPC issues**: Ensure Discord is running and RPC is enabled
-
-### Linux Specific
-- Install Wine: `sudo apt install wine` (Ubuntu/Debian)
-- For Proton: Requires Steam installation
-- AppImage permissions: `chmod +x LegacyLauncher-*.AppImage`
-
-## Contributing
-
-Feel free to submit issues and pull requests for improvements.</content>
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=gradenGnostic%2FLegacyLauncher&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=gradenGnostic/LegacyLauncher&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=gradenGnostic/LegacyLauncher&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=gradenGnostic/LegacyLauncher&type=date&legend=top-left" />
- </picture>
-</a>
+An actively developed fork of gardenGnostic's LegacyLauncher
